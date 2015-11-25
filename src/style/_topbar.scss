@@ -2,17 +2,18 @@
 {
     padding: 8px 30px;
 
-    background-color: #89bf04;
+    background-color: #FFF;
     .topbar-wrapper
     {
         display: flex;
-
         align-items: center;
     }
+
     a
     {
         font-size: 1.5em;
         font-weight: bold;
+
 
         display: flex;
 
@@ -22,7 +23,7 @@
 
         flex: 1;
         align-items: center;
-        @include text_headline(#fff);
+        @include text_headline(#000);
 
         span
         {
@@ -43,7 +44,7 @@
             min-width: 350px;
             margin: 0;
 
-            border: 2px solid #547f00;
+            border: 2px solid #C7C6C6;
             border-radius: 4px 0 0 4px;
             outline: none;
         }
@@ -57,7 +58,7 @@
 
             border: none;
             border-radius: 0 4px 4px 0;
-            background: #547f00;
+            background: #CC0000;
 
             @include text_headline(#fff);
         }

@@ -22,7 +22,7 @@ module.exports = function SwaggerUI(opts) {
     // Some general settings, that we floated to the top
     dom_id: null,
     spec: {},
-    url: "https://broker.autovance.com",
+    url: "https://broker.autovance.com/docs",
     layout: "StandaloneLayout",
     validatorUrl: "https://online.swagger.io/validator",
     configs: {},

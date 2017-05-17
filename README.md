@@ -1,4 +1,4 @@
-# Swagger UI
+# Swagger UI - Autovance Fork
 
 [![NPM version](https://badge.fury.io/js/swagger-ui.svg)](http://badge.fury.io/js/swagger-ui)
 
@@ -204,16 +204,6 @@ Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 
 Only headers with these names will be allowed to be sent by Swagger-UI.
 
-## License
+## LICENSE
 
-Copyright 2017 SmartBear Software
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+All modifications to the original `swagger-api/swagger-ui` code made in this repository, not reflected in the original repository, are copy write 2017 Autovance Technologies, including but not limited to fonts, images, and any other assets. No use of any of these assets permitted.

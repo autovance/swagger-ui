@@ -1,6 +1,26 @@
+@font-face {
+  font-family: DINWeb;
+  src: url("//desk.autovance.com/assets/fonts/Din.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: DINWeb;
+  src: url("//desk.autovance.com/assets/fonts/Din-Medium.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: DINWeb;
+  src: url("//desk.autovance.com/assets/fonts/Din-Bold.ttf") format("truetype");
+  font-weight: 800;
+}
+
 @mixin text_body($color: #3b4151)
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'DINWeb', 'Open Sans',  sans-serif;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.003em;
 
     color: $color;
 }
@@ -8,14 +28,16 @@
 @mixin text_code($color: #3b4151)
 {
     font-family: 'Source Code Pro', monospace;
-    font-weight: 600;
+    text-rendering: optimizeLegibility;
 
     color: $color;
 }
 
 @mixin text_headline($color: #3b4151)
 {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'DINWeb', 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.003em;
 
     color: $color;
 }

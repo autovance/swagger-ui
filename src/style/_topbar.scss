@@ -2,7 +2,7 @@
 {
     padding: 8px 30px;
 
-    background-color: #FFF;
+    background-color: #2d2d34;
     .topbar-wrapper
     {
         display: flex;
@@ -23,7 +23,7 @@
 
         flex: 1;
         align-items: center;
-        @include text_headline(#000);
+        @include text_headline(#FFF);
 
         span
         {
